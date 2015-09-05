@@ -1,0 +1,18 @@
+<!-- You can customize this layout.
+     You need to have in your layout a `CardView` with the ID `list_cardId` -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+
+    <it.gmariotti.cardslib.library.view.CardViewNative
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/list_cardId"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_height="wrap_content"
+        card:card_layout_resourceID="@layout/native_card_layout"/>
+        <!--style="@style/native_list_card.base"-->
+
+</LinearLayout>

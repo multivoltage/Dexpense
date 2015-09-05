@@ -1,0 +1,200 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    tools:context="com.tonini.diego.dexpense.AddMovementActivity">
+
+
+        <ScrollView
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/linearLayout">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|center_vertical"
+                        android:gravity="start|center_vertical"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="@string/Value"
+                        android:textColor="@color/md_green_600"/>
+
+                    <EditText
+                        android:id="@+id/editAddMovementImport"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:paddingLeft="16dp"
+                        android:layout_gravity="start|center_vertical"
+                        android:gravity="start|center_vertical"
+                        android:inputType="numberDecimal"
+                        android:textColor="@color/md_green_600"
+                        android:textColorHint="@color/md_light_green_200"
+                        android:background="#00000000"/>
+
+                 </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="16dp"
+                    android:layout_marginTop="0dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|center_vertical"
+                        android:gravity="start|center_vertical"
+                        android:text="@string/Description"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/md_green_600"/>
+
+                    <RadioGroup
+                        android:id="@+id/radioGroupOptions"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </RadioGroup>
+
+                    <EditText
+                        android:id="@+id/editAddMovementDesc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        android:layout_marginLeft="32dp"
+                        android:hint="@string/generic_entry"
+                        android:background="#00000000"
+                        android:textColor="@color/md_green_600"
+                        android:textColorHint="@color/md_light_green_200"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="16dp"
+                    android:layout_marginTop="0dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxWidth="24dp"
+                        android:maxHeight="24dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/tear_of_calendar_128"/>
+
+                    <TextView
+                        android:id="@+id/tvAddMovementDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Today"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginStart="8dp"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textColor="@color/md_green_600"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="16dp"
+                    android:layout_marginTop="0dp">
+
+                    <CheckBox
+                        android:id="@+id/checkboxAdmovementIsRepeating"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Repeating"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/md_green_600"
+                        android:checked="false"/>
+
+                    <RadioGroup
+                        android:id="@+id/radioGroupRepeating"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="24dp"
+                        android:visibility="invisible">
+
+                        <RadioButton
+                            android:id="@+id/radioButtonDeltaWeek"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/md_green_600"
+                            android:text="@string/Every_week"/>
+
+                        <RadioButton
+                            android:id="@+id/radioButtonDeltaMonth"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/md_green_600"
+                            android:text="@string/Every_month"/>
+
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+
+        </ScrollView>
+        <!-- footer -->
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:background="@color/md_green_600"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentStart="true"
+           android:orientation="horizontal"
+           android:layout_alignParentBottom="true"
+           android:id="@+id/linearLayout">
+
+           <TextView
+               android:id="@+id/tvBackMovement"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:layout_gravity="center_horizontal|center_vertical"
+               android:gravity="center_horizontal|center_vertical"
+               android:textColor="@color/md_white_1000"
+               android:textSize="18sp"
+               android:text="@string/Back"/>
+
+           <TextView
+               android:id="@+id/tvConfirmMovement"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:layout_gravity="center_horizontal|center_vertical"
+               android:gravity="center_horizontal|center_vertical"
+               android:textColor="@color/md_white_1000"
+               android:textSize="18sp"
+               android:text="@string/Confirm"/>
+
+       </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">Dexpense</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- for Admob -->
+    <string name="banner_ad_unit_id">ca-app-pub-4585015396136820/2907718399</string>
+    <string name="title_activity_edit_movement">EditMovementActivity</string>
+    <string name="title_activity_wizard">WizardActivity</string>
+    <string name="title_activity_add_movement">AddMovementActivity</string>
+    <string name="title_activity_entry">EntryActivity</string>
+    <string name="title_activity_exit">ExitActivity</string>
+
+    <array name="categoryentry">
+        <item>salary</item>
+        <item>personal saving</item>
+        <item>rents</item>
+        <item>part time work</item>
+        <item>pension</item>
+        <item>bank transfer</item>
+        <item>check</item>
+        <item>cash gift</item>
+    </array>
+    <array name="categoryexit">
+        <item>car</item>
+        <item>insurance car</item>
+        <item>family</item>
+        <item>cigarettes</item>
+        <item>buying appliances</item>
+        <item>tax</item>
+        <item>travel/holiday</item>
+        <item>son pocket money</item>
+        <item>expense</item>
+        <item>bar</item>
+        <item>restaurant</item>
+    </array>
+    <array name="month">
+        <item>gen</item>
+        <item>feb</item>
+        <item>mar</item>
+        <item>apr</item>
+        <item>may</item>
+        <item>jun</item>
+        <item>jul</item>
+        <item>aug</item>
+        <item>sep</item>
+        <item>ott</item>
+        <item>nov</item>
+        <item>dec</item>
+
+    </array>
+
+
+    <string name="product_id">unlock_features</string>
+    <string name="license_key">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsy0vEQPvJUcz2xsXZNWgNX1HEj4Co315SHZIUvuD14YxHK4JVH1Hv5k3bXQmnAqLs4r9esg0YXcuHnNSn2qDA7mEy9zs+Xxh8puNhb2GmZrsoaTaBhfaTgpjT4Vwj0VzoYmo0Cc1jy+Ww6ScQyv2ub4eiUXl4NvNwPD7lJ8eRxVofnoenpTLWkZOm4qVja9nlAus5BeLAF1cssxbPZ3klmGXY02ZcaK14uGrbp4hVqAS1cg+Xnrax1SqrJ9bS5FDt1GVQbZZMNiHZNRusHCrPfJAOG7R7hzenvf9LJiYlDblOJgMIF+pTgkB9YxgOJtRE2GQK0ayWawxAnCre3qciQIDAQAB</string>
+
+
+    <!-- follow are translated -->
+    <string name="Entry">Inflow</string>
+    <string name="Exit">Outflow</string>
+    <string name="Date">Date</string>
+    <string name="Movements">Movements</string>
+    <string name="no_wallets">no wallets</string>
+    <string name="Wallets">Wallets</string>
+    <string name="New_Wallet">New Wallet</string>
+    <string name="Generic_Wallet">Generic Wallet</string>
+    <string name="Added">Added</string>
+    <string name="Updated">Updated</string>
+    <string name="Cancelled">Cancelled</string>
+    <string name="Chanched_currency">Changed currency</string>
+    <string name="Insert_at_leats_3_chars">Insert at leats 3 chars</string>
+    <string name="New_description">New description</string>
+    <string name="Add_wallet_movement_to_generate_chart">Add wallet/movement to generate chart</string>
+    <string name="Dexpense_summy">Dexpense - review</string>
+    <string name="Delete_wallet_and_all_its_movement">Delete wallet and all its movement?</string>
+    <string name="Incomplete_fields">Incomplete fields</string>
+    <string name="New_Entry">New Inflow</string>
+    <string name="New_Exit">New Outflow</string>
+    <string name="custom">custom</string>
+    <string name="Operations">operations</string>
+    <string name="Automatic_Movement">automatic Movements</string>
+    <string name="Stats">stats</string>
+    <string name="Setting">Setting</string>
+    <string name="Really_exit">Really exit?</string>
+    <string name="Yes">Yes</string>
+    <string name="Upgrade_to_PRO">Upgrade to PRO</string>
+    <string name="remove_all_ads">remove all ads and get all next feautures free</string>
+    <string name="Buy">Buy</string>
+    <string name="Edit">Edit</string>
+    <string name="Delete">Delete</string>
+    <string name="Share">Share</string>
+    <string name="action_buy_pro">Buy pro</string>
+    <string name="Value">Value</string>
+    <string name="Description">Description</string>
+    <string name="Today">Today</string>
+    <string name="Repeating">Repeating</string>
+    <string name="Every_week">every week</string>
+    <string name="Every_month">every month</string>
+    <string name="Back">Back</string>
+    <string name="Confirm">Confirm</string>
+    <string name="Next">Next</string>
+    <string name="Monthly_limit">Monthly limit</string>
+    <string name="Created">Created</string>
+    <string name="Name">Name:</string>
+    <string name="Initial_Balance">Initial balance: </string>
+    <string name="Application_created_by_Diego_Tonini">Application created by Diego Tonini</string>
+    <string name="for_any_problem_or_suggestion">for any problem or suggestion</string>
+    <string name="If_you_like">If you like this app please rate me</string>
+    <string name="Used_libraries">Used libraries</string>
+    <string name="Coming_soon_in_free">Coming soon (free)</string>
+    <string name="Currency">Currency</string>
+    <string name="Add_custom_inflow">Add custom inflow</string>
+    <string name="Add_custom_outflow">Add custom outflow</string>
+    <string name="Last_week">last week</string>
+    <string name="Last_month">last month</string>
+    <string name="Last_year">last_year</string>
+    <string name="Choose_interval">Choose interval</string>
+    <string name="From">from</string>
+    <string name="To">to</string>
+    <string name="Dexpense_need_conf">Dexpence needs a little setup &#8230;</string>
+    <string name="Intro_wallet_name">Wallet name</string>
+    <string name="Intro_main_wallet">Main Wallet</string>
+    <string name="Intro_month_limit_optional">Monthly limit optional</string>
+    <string name="WithoutCurrency">without currency</string>
+    <string name="rate_me">Rate app</string>
+    <string name="Balance">Balance</string>
+    <string name="generic_entry">generic entry</string>
+    <string name="generic_exit">generic exit</string>
+    <string name="action_cvs">Generate Csv</string>
+    <string name="generate_csv">Generate Csv</string>
+    <string name="csv_content">path: /Dexpense/dd_mm_yyyy.csv</string>
+    <string name="generated_csv_ok">csv genereted correctly</string>
+    <string name="generated_csv_ko">error during backup</string>
+
+</resources>

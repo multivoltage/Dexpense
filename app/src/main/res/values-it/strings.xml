@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="product_id">unlock_features</string>
+    <string name="license_key">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsy0vEQPvJUcz2xsXZNWgNX1HEj4Co315SHZIUvuD14YxHK4JVH1Hv5k3bXQmnAqLs4r9esg0YXcuHnNSn2qDA7mEy9zs+Xxh8puNhb2GmZrsoaTaBhfaTgpjT4Vwj0VzoYmo0Cc1jy+Ww6ScQyv2ub4eiUXl4NvNwPD7lJ8eRxVofnoenpTLWkZOm4qVja9nlAus5BeLAF1cssxbPZ3klmGXY02ZcaK14uGrbp4hVqAS1cg+Xnrax1SqrJ9bS5FDt1GVQbZZMNiHZNRusHCrPfJAOG7R7hzenvf9LJiYlDblOJgMIF+pTgkB9YxgOJtRE2GQK0ayWawxAnCre3qciQIDAQAB</string>
+
+    <string name="hello_world">Hello world!</string>
+
+
+    <!-- for Admob -->
+    <string name="banner_ad_unit_id">ca-app-pub-4585015396136820/2907718399</string>
+    <string name="title_activity_edit_movement">EditMovementActivity</string>
+    <string name="title_activity_wizard">WizardActivity</string>
+    <string name="title_activity_add_movement">AddMovementActivity</string>
+    <string name="title_activity_entry">EntryActivity</string>
+    <string name="title_activity_exit">ExitActivity</string>
+
+    <array name="categoryentry">
+        <item>stipendio</item>
+        <item>risparmio personale</item>
+        <item>affito</item>
+        <item>lavoro part time</item>
+        <item>pensione</item>
+        <item>bonifico bancario</item>
+        <item>assegno</item>
+        <item>regalo contanti</item>
+    </array>
+    <array name="categoryexit">
+        <item>auto</item>
+        <item>assicurazione auto</item>
+        <item>spese famiglia</item>
+        <item>sigarette</item>
+        <item>acquisto elettrodomestici</item>
+        <item>tasse</item>
+        <item>vacanze/viaggio</item>
+        <item>paghetta figlio</item>
+        <item>spesa alimenti</item>
+        <item>bar</item>
+        <item>ristorante</item>
+    </array>
+    <array name="month">
+        <item>gen</item>
+        <item>feb</item>
+        <item>mar</item>
+        <item>apr</item>
+        <item>mag</item>
+        <item>giu</item>
+        <item>lug</item>
+        <item>ago</item>
+        <item>set</item>
+        <item>ott</item>
+        <item>nov</item>
+        <item>dec</item>
+
+    </array>
+
+
+    <string name="app_name">Dexpense</string>
+    <string name="Add_custom_inflow">Nuova categoria entrate</string>
+    <string name="Add_custom_outflow">Nuova categoria spese</string>
+    <string name="Add_wallet_movement_to_generate_chart">Aggiungi un portafoglio/movimento per generare il grafico</string>
+    <string name="Added">Aggiunto</string>
+    <string name="Application_created_by_Diego_Tonini">Applicazione creata da Diego Tonini</string>
+    <string name="Automatic_Movement">movimenti automatici</string>
+    <string name="Back">Indietro</string>
+    <string name="Buy">Compra</string>
+    <string name="Cancelled">Cancellato</string>
+    <string name="Chanched_currency">Valuta cambiata</string>
+    <string name="Choose_interval">Scegli intervallo</string>
+    <string name="Confirm">Conferma</string>
+    <string name="Created">Creato</string>
+    <string name="Currency">Valuta</string>
+    <string name="Date">Data</string>
+    <string name="Delete">Elimina</string>
+    <string name="Delete_wallet_and_all_its_movement">Eliminare portafoglio e relativi movimenti?</string>
+    <string name="Description">Descrizione</string>
+    <string name="Dexpense_need_conf">Dexpense ha bisogno di una piccola configurazione &#8230;</string>
+    <string name="Edit">Modifica</string>
+    <string name="Entry">Entrata</string>
+    <string name="Every_month">Ogni mese</string>
+    <string name="Every_week">Ogni settimana</string>
+    <string name="Exit">Spesa</string>
+    <string name="From">da</string>
+    <string name="Generic_Wallet">Portafoglio generico</string>
+    <string name="If_you_like">Se ti piace l\' app per favore votala</string>
+    <string name="Incomplete_fields">Campi incompleti</string>
+    <string name="Initial_Balance">Bilancio iniziale</string>
+    <string name="Insert_at_leats_3_chars">Inserisci almeno 3 caratteri</string>
+    <string name="Intro_main_wallet">Portafogli Principale</string>
+    <string name="Intro_month_limit_optional">Limite mensile opzionale</string>
+    <string name="Intro_wallet_name">Nome portafoglio</string>
+    <string name="Last_month">ultimo mese</string>
+    <string name="Last_week">ultima settimana</string>
+    <string name="Last_year">ultimo anno</string>
+    <string name="Monthly_limit">Limite mensile</string>
+    <string name="Movements">Movimenti</string>
+    <string name="Name">Nome:</string>
+    <string name="New_Entry">Nuova Entrata</string>
+    <string name="New_Exit">Nuova Spesa</string>
+    <string name="New_Wallet">Nuovo Portafoglio</string>
+    <string name="New_description">Nuova Descrizione</string>
+    <string name="Next">Avanti</string>
+    <string name="Operations">Operazioni</string>
+    <string name="Really_exit">Vuoi veramente uscire?</string>
+    <string name="Repeating">Ripetizione</string>
+    <string name="Setting">Impostazioni</string>
+    <string name="Share">Condividi</string>
+    <string name="Stats">statistiche</string>
+    <string name="To">da</string>
+    <string name="Today">Oggi</string>
+    <string name="Updated">Aggiornato</string>
+    <string name="Upgrade_to_PRO">Upgrade to PRO</string>
+    <string name="Used_libraries">Librerie usate</string>
+    <string name="Value">Importo</string>
+    <string name="Wallets">Portafogli</string>
+    <string name="WithoutCurrency">senza valuta</string>
+    <string name="Yes">Si</string>
+    <string name="action_buy_pro">Compra PRO</string>
+    <string name="action_settings">Impostazioni</string>
+    <string name="custom">personalizzato</string>
+    <string name="for_any_problem_or_suggestion">per ogni problema o dubbio</string>
+    <string name="no_wallets">no portafogli</string>
+    <string name="remove_all_ads">rimuovi la pubblicità e ottieni le prossime feautures gratis</string>
+    <string name="Dexpense_summy">Dexpense - review</string>
+    <string name="Coming_soon_in_free">Coming soon (free)</string>
+    <string name="rate_me">Vota app</string>
+    <string name="Balance">Bilancio</string>
+    <string name="generic_entry">entrata generica</string>
+    <string name="generic_exit">generic exit</string>
+    <string name="action_cvs">Genera Csv</string>
+    <string name="generate_csv">Genera Csv</string>
+    <string name="csv_content">cartella: /Dexpense/dd_mm_yyyy.csv</string>
+    <string name="generated_csv_ok">csv generato correttamente</string>
+    <string name="generated_csv_ko">errore durante backup</string>
+
+
+</resources>

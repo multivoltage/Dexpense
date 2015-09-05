@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/action_edit"
+        android:title="@string/Edit"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_delete"
+        android:title="@string/Delete"
+        android:orderInCategory="101"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_share"
+        android:title="@string/Share"
+        android:orderInCategory="102"
+        app:showAsAction="always" />
+
+    <!-- <item android:id="@+id/action_to_pdf"
+        android:title="To Pdf"
+        android:orderInCategory="102"
+        app:showAsAction="always"/>-->
+
+
+
+</menu>

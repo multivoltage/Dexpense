@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/multiple_actions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        fab:fab_addButtonColorNormal="@color/primary"
+        fab:fab_addButtonColorPressed="@color/md_light_blue_700"
+        fab:fab_addButtonSize="normal"
+        fab:fab_labelStyle="@style/menu_labels_style"
+        fab:fab_labelsPosition="left">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fbNewExit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/md_red_200"
+            fab:fab_title="Outflow"
+            fab:fab_size="mini"
+            fab:fab_colorPressed="@color/md_red_300"/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fbNewEntry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/md_green_200"
+            fab:fab_size="mini"
+            fab:fab_title="Inflow"
+            fab:fab_colorPressed="@color/md_green_400"/>
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+
+</LinearLayout>
